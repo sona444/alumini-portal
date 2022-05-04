@@ -1,260 +1,23 @@
-<!doctype html>
-<html lang="zxx">
 
-<head>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, iManav Rachna ial-scale=1, shrink-to-fit=no">
-<style>
-  #jarallax-container-0 div{
-    background-image: url("assets/images/6.jpg") !important;
-  }
-  .container{
-    max-width:1400px !important;
-  }
-</style>
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+{% extends "layout/base.html" %}
 
-<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+{% block title %}Trendsetter Analyser{% endblock %}
 
-<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
 
-<link rel="stylesheet" href="assets/css/remixicon.css">
+{% block body_class %} landing-page {% endblock body_class %}
 
-<link rel="stylesheet" href="assets/css/flaticon.css">
+{% block content %}
 
-<link rel="stylesheet" href="assets/css/meanmenu.min.css">
 
-<link rel="stylesheet" href="assets/css/animate.min.css">
-
-<link rel="stylesheet" href="assets/css/odometer.min.css">
-
-<link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-
-<link rel="stylesheet" href="assets/css/date-picker.min.css">
-
-<link rel="stylesheet" href="assets/css/style.css">
-
-<link rel="stylesheet" href="assets/css/responsive.css">
-
-<link rel="icon" type="image/png" href="assets/images/favicon.png">
-
-<title>Manav Rachna   Alumni Cell</title>
-</head>
-<body>
+<main>
 
 <div class="preloader">
 <div class="lds-ripple">
 <div class="pl-flip-1 pl-flip-2"></div>
 </div>
 </div>
-
-
-<header class="header-area">
-
-<div class="top-header" style="text-align: center;font-size: 22px;">
-<div class="container">
-<div class="row align-items-center">
-<div class="col-lg-12 col-sm-12">
-
-  <b style="color:white;">Manav Rachna Alumni Mentoring Platform &nbsp;</b>
-
-
-
-
-
-</div>
-
-</div>
-</div></div>
-
-
-<div class="navbar-area">
-
-<div class="mobile-responsive-nav">
-<div class="container">
-<div class="mobile-responsive-menu">
-<div class="logo">
-<a href="index-2.html">
-<img src="assets/images/mr-logo.jpg" alt="logo">
-</a>
-</div>
-<div class="others-options-for-mobile-devices">
-<ul>
-<li>
-<a href="https://docs.google.com/forms/d/1R8mrpnzEbO3_GovG_KUqzCCD1Aymx11jZ0Pd-WJjgs8/edit" class="default-btn">
-Register Here
-</a>
-</li>
-<li>
-<button type="button" class="search-btn" data-bs-toggle="modal" data-bs-target="#exampleModalsrc">
-<i class="ri-search-line"></i>
-</button>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="desktop-nav">
-<div class="container">
-<nav class="navbar navbar-expand-md navbar-light">
-<a class="navbar-brand" href="index-2.html">
-<img src="assets/images/mr-logo.jpg" alt="logo" style="max-width:60%; height:90%;">
-</a>
-<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-<ul class="navbar-nav m-auto">
-<li class="nav-item">
-<a href="index.html" class="nav-link active">
-Home
-
-</a>
-
-</li>
-
-<li class="nav-item">
-<a href="#" class="nav-link">
-Messsage's<i class="ri-arrow-down-s-line"></i>
-</a>
-<ul class="dropdown-menu">
-<li class="nav-item">
-<a href="#" class="nav-link">Vice Chancellor's Message</a>
-</li>
-<li class="nav-item">
-<a href="#" class="nav-link">Pro Vice Chancellor's Message</a>
-</li>
-
-</li>
-</ul>
-</li>
-
-<li class="nav-item">
-<a href="#" class="nav-link">
-Alumni Diary<i class="ri-arrow-down-s-line"></i>
-</a>
-<ul class="dropdown-menu">
-  <li class="nav-item">
-  <a href="#" class="nav-link">Blogs</a>
-  </li>
-  <li class="nav-item">
-  <a href="#" class="nav-link">Achievements</a>
-  </li>
-  <li class="nav-item">
-    <a href="#" class="nav-link">Profiles</a>
-    <ul class="dropdown-menu">
-      <li class="nav-item">
-      <a href="#" class="nav-link">2001-2005</a>
-      <ul class="dropdown-menu">
-        <li class="nav-item">
-        <a href="assets/profile-converted.pdf" class="nav-link">Computer Science</a>
-        </li>
-        <li class="nav-item">
-          <a href="assets/profile-converted.pdf" class="nav-link">EEE</a>
-          </li>
-      </ul>
-      </li>
-    </ul>
-    </li>
-  </li>
-  </ul>
-</li>
-
-
-<li class="nav-item">
-<a href="#" class="nav-link">
-Mentoring Rooms
-<i class="ri-arrow-down-s-line"></i>
-</a>
-<ul class="dropdown-menu">
-   
-<li class="nav-item">
-    <a href="computer-science-spl.html" class="nav-link">Department of Computer science Engineering</a>
-     </li>
-  <li class="nav-item">
-    <a href="computer-science-spl.html" class="nav-link">Department of Electronics and Communication Engineering</a>
-     </li>
-  <li class="nav-item">
-    <a href="computer-science-spl.html" class="nav-link">Department of Mechanical Engineering</a>
-     </li>
-</ul>
-
-</li>
-<li class="nav-item">
-  <a href="#" class="nav-link">
-  Contribute<i class="ri-arrow-down-s-line"></i>
-  </a>
-  <ul class="dropdown-menu">
-    <li class="nav-item">
-    <a href="#" class="nav-link">Internship</a>
-    </li>
-    <li class="nav-item">
-    <a href="#" class="nav-link">Post a Job</a>
-    </li>
-    <li class="nav-item">
-      <a href="#" class="nav-link">Cortification Support</a>
-      </li>
-    </li>
-    </ul>
-  </li>
-<li class="nav-item">
-<a href="#" class="nav-link">
-Reunion
-<i class="ri-arrow-down-s-line"></i>
-</a>
-<ul class="dropdown-menu">
-
-<li class="nav-item">
-<a href="#" class="nav-link">Refersh your Memories</a>
-</li>
-<li class="nav-item">
-  <a href="#" class="nav-link">Gallery</a>
-  </li>
-</li>
-</ul>
-</li>
-<li class="nav-item">
-  <a href="contact.html" class="nav-link">Editorial Board<i class="ri-arrow-down-s-line"></i>
-  </a>
-  <ul class="dropdown-menu">
-  
-  <li class="nav-item">
-  <a href="#" class="nav-link">Faculty Coordinators</a>
-  </li>
-  <li class="nav-item">
-    <a href="#" class="nav-link">Student Coordinators</a>
-    </li>
-  </li>
-  </ul>
-  </li>
-
-
-<li class="nav-item">
-<a href="contact.html" class="nav-link">Contact</a>
-</li>
-
-</ul>
-<div class="others-options">
-  <ul>
-  <li>
-  <a href="#" class="default-btn">
-  Login
-  </a>
-  </li>
-  </ul>
-  </div>
-</div>
-
-</nav>
-
-</div>
-
-</div>
-</div>
-
-</header>
-
 
 <div class="modal fade search-modal-area" id="exampleModalsrc">
 <div class="modal-dialog modal-dialog-centered">
@@ -291,7 +54,7 @@ Join Now
 </div>
 <div class="col-lg-6">
 <div class="banner-img">
-<img src="assets\images\mr2.jpg" alt="Image">
+<img src="static\images\mr2.jpg" alt="Image">
 </div>
 </div>
 </div>
@@ -329,9 +92,9 @@ Linkedin
 <div class="row align-items-center">
 <div class="col-xl-6">
 <div class="about-img-two mr-15">
-<img src="assets/images/3.jpg" alt="Image">
+<img src="static/images/3.jpg" alt="Image">
 <div class="about-shape">
-<img src="assets/images/about-shape.png" alt="Image">
+<img src="static/images/about-shape.png" alt="Image">
 </div>
 </div>
 </div>
@@ -378,9 +141,9 @@ Read More
 </div>
 <div class="col-xl-6">
 <div class="about-img-two mr-15">
-<img src="assets/images/chairman.jpg" alt="Image">
+<img src="static/images/chairman.jpg" alt="Image">
 <div class="about-shape">
-<img src="assets/images/about-shape.png" alt="Image">
+<img src="static/images/about-shape.png" alt="Image">
 </div>
 </div>
 </div>
@@ -410,34 +173,34 @@ Read More
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="assets/images/3 (2).jpg" alt="First slide">
+      <img class="d-block w-100" src="static/images/3 (2).jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets/images/2.jpg" alt="Second slide">
+      <img class="d-block w-100" src="static/images/2.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets/images/New Doc 2019-09-14 10.49.18_11.jpg" alt="Third slide">
+      <img class="d-block w-100" src="static/images/New Doc 2019-09-14 10.49.18_11.jpg" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets\images\New Doc 2019-09-14 10.49.18_4.jpg" alt="First slide">
+      <img class="d-block w-100" src="static\images\New Doc 2019-09-14 10.49.18_4.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets\images\New Doc 2019-09-14 10.49.18_5.jpg" alt="Second slide">
+      <img class="d-block w-100" src="static\images\New Doc 2019-09-14 10.49.18_5.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets\images\New Doc 2019-09-14 10.49.18_14.jpg" alt="Third slide">
+      <img class="d-block w-100" src="static\images\New Doc 2019-09-14 10.49.18_14.jpg" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets\images\New Doc 2019-09-14 10.49.18_7.jpg" alt="First slide">
+      <img class="d-block w-100" src="static\images\New Doc 2019-09-14 10.49.18_7.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets\images\New Doc 2019-09-14 10.49.18_8.jpg" alt="Second slide">
+      <img class="d-block w-100" src="static\images\New Doc 2019-09-14 10.49.18_8.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets\images\New Doc 2019-09-14 10.49.18_12.jpg" alt="Third slide">
+      <img class="d-block w-100" src="static\images\New Doc 2019-09-14 10.49.18_12.jpg" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets\images\New Doc 2019-09-14 10.49.18_10.jpg" alt="Third slide">
+      <img class="d-block w-100" src="static\images\New Doc 2019-09-14 10.49.18_10.jpg" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -452,7 +215,7 @@ Read More
 <!--<div class="row justify-content-md-center">
 <div class="col-lg-4 col-md-6">
 <div class="single-team-member">
-<img src="assets/images/team/mohit.jpg" alt="Image">
+<img src="static/images/team/mohit.jpg" alt="Image">
 <div class="team-content">
 <div class="team-social">
 <a href="#" class="control">
@@ -490,7 +253,7 @@ Read More
 </div>
 <div class="col-lg-4 col-md-6">
 <div class="single-team-member">
-<img src="assets/images/team/rajat.jpg" alt="Image">
+<img src="static/images/team/rajat.jpg" alt="Image">
 <div class="team-content">
 <div class="team-social">
 <a href="#" class="control">
@@ -528,7 +291,7 @@ Read More
 </div>
 <div class="col-lg-4 col-md-6">
 <div class="single-team-member">
-<img src="assets/images/team/yash.jpg" alt="Image">
+<img src="static/images/team/yash.jpg" alt="Image">
 <div class="team-content">
 <div class="team-social">
 <a href="#" class="control">
@@ -566,7 +329,7 @@ Read More
 </div>
 <div class="col-lg-4 col-md-6">
 <div class="single-team-member">
-<img src="assets/images/team/abhishesk.jpg" alt="Image">
+<img src="static/images/team/abhishesk.jpg" alt="Image">
 <div class="team-content">
 <div class="team-social">
 <a href="#" class="control">
@@ -604,7 +367,7 @@ Read More
 </div>
 <div class="col-lg-4 col-md-6">
 <div class="single-team-member">
-<img src="assets/images/team/yash-phogat.jpg" alt="Image">
+<img src="static/images/team/yash-phogat.jpg" alt="Image">
 <div class="team-content">
 <div class="team-social">
 <a href="#" class="control">
@@ -642,7 +405,7 @@ Read More
 </div>
 <div class="col-lg-4 col-md-6">
 <div class="single-team-member">
-<img src="assets/images/team/Gaurav.jpg" alt="Image">
+<img src="static/images/team/Gaurav.jpg" alt="Image">
 <div class="team-content">
 <div class="team-social">
 <a href="#" class="control">
@@ -752,7 +515,7 @@ Find out more
 <div class="col-lg-5">
 <div class="events-timer ml-15">
 <div class="event-img">
-<img src="assets/images/event-img.jpg" alt="Image">
+<img src="static/images/event-img.jpg" alt="Image">
 </div>
 <span>Next Event</span>
 <div id="timer">
@@ -821,10 +584,10 @@ Join Now!
 </div>
 </div>
 <div class="shape counter-shape-1">
-<img src="assets/images/counter-shape-1.png" alt="Image">
+<img src="static/images/counter-shape-1.png" alt="Image">
 </div>
 <div class="shape counter-shape-2">
-<img src="assets/images/counter-shape-2.png" alt="Image">
+<img src="static/images/counter-shape-2.png" alt="Image">
 </div>
 </div>
 </div>
@@ -851,34 +614,33 @@ Copyright <i class="ri-copyright-line"></i> 2022 Alumni Cell - Manav Rachna . De
 </div>
 
 
-<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script><script src="assets/js/jquery.min.js"></script>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script><script src="static/js/jquery.min.js"></script>
 
-<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="static/js/bootstrap.bundle.min.js"></script>
 
-<script src="assets/js/meanmenu.min.js"></script>
+<script src="static/js/meanmenu.min.js"></script>
 
-<script src="assets/js/owl.carousel.min.js"></script>
+<script src="static/js/owl.carousel.min.js"></script>
 
-<script src="assets/js/wow.min.js"></script>
+<script src="static/js/wow.min.js"></script>
 
-<script src="assets/js/appear.min.js"></script>
+<script src="static/js/appear.min.js"></script>
 
-<script src="assets/js/odometer.min.js"></script>
+<script src="static/js/odometer.min.js"></script>
 
-<script src="assets/js/jarallax.min.js"></script>
+<script src="static/js/jarallax.min.js"></script>
 
-<script src="assets/js/bootstrap-datepicker.min.js"></script>
+<script src="static/js/bootstrap-datepicker.min.js"></script>
 
-<script src="assets/js/magnific-popup.min.js"></script>
+<script src="static/js/magnific-popup.min.js"></script>
 
-<script src="assets/js/form-validator.min.js"></script>
+<script src="static/js/form-validator.min.js"></script>
 
-<script src="assets/js/contact-form-script.js"></script>
+<script src="static/js/contact-form-script.js"></script>
 
-<script src="assets/js/ajaxchimp.min.js"></script>
+<script src="static/js/ajaxchimp.min.js"></script>
 
-<script src="assets/js/custom.js"></script>
-</body>
+<script src="static/js/custom.js"></script>
+</main>
 
-
-</html>
+{% endblock content %}
